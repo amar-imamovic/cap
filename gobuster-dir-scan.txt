@@ -1,0 +1,4 @@
+data                [36m (Status: 302)[0m [Size: 208][34m [--> http://10.129.3.89/][0m
+ip                  [32m (Status: 200)[0m [Size: 17447]
+netstat             [32m (Status: 200)[0m [Size: 29525]
+capture             [36m (Status: 302)[0m [Size: 220][34m [--> http://10.129.3.89/data/2][0m

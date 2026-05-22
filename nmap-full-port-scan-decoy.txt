@@ -1,0 +1,12 @@
+# Nmap 7.98 scan initiated Fri May 22 20:38:13 2026 as: /usr/lib/nmap/nmap -Pn -sS -p- -oN nmap-full-port-scan-decoy.txt -D3 10.129.3.89
+Nmap scan report for 10.129.3.89
+Host is up (0.058s latency).
+Not shown: 65530 closed tcp ports (reset)
+PORT     STATE    SERVICE
+21/tcp   open     ftp
+22/tcp   open     ssh
+80/tcp   open     http
+8008/tcp filtered http
+8009/tcp filtered ajp13
+
+# Nmap done at Fri May 22 20:38:50 2026 -- 1 IP address (1 host up) scanned in 37.03 seconds

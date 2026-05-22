@@ -1,0 +1,308 @@
+15:12:49.958142 IP 192.168.196.1.54399 > 192.168.196.16.http: Flags [S], seq 2397486956, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+E..4..@....N...........P...l........G...............
+15:12:49.958169 IP 192.168.196.16.http > 192.168.196.1.54399: Flags [S.], seq 239420785, ack 2397486957, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+E..4..@.@.1a.........P...EEq...m....	...............
+15:12:49.958332 IP 192.168.196.1.54399 > 192.168.196.16.http: Flags [.], ack 1, win 4106, length 0
+E..(..@....Y...........P...m.EErP..
+..........
+15:12:49.958383 IP 192.168.196.1.54399 > 192.168.196.16.http: Flags [P.], seq 1:399, ack 1, win 4106, length 398: HTTP: GET / HTTP/1.1
+E.....@................P...m.EErP..
+K...GET / HTTP/1.1
+Host: 192.168.196.16
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+DNT: 1
+Sec-GPC: 1
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+15:12:49.958388 IP 192.168.196.16.http > 192.168.196.1.54399: Flags [.], ack 399, win 501, length 0
+E..(Y.@.@..S.........P...EEr....P...	~..
+15:12:49.959884 IP 192.168.196.16.http > 192.168.196.1.54399: Flags [P.], seq 1:18, ack 399, win 501, length 17: HTTP: HTTP/1.0 200 OK
+E..9Y.@.@..A.........P...EEr....P...	...HTTP/1.0 200 OK
+
+15:12:49.960000 IP 192.168.196.16.http > 192.168.196.1.54399: Flags [FP.], seq 18:1396, ack 399, win 501, length 1378: HTTP
+E...Y.@.@............P...EE.....P.......Content-Type: text/html; charset=utf-8
+Content-Length: 1240
+Server: Werkzeug/2.0.0 Python/3.8.5
+Date: Fri, 14 May 2021 13:12:49 GMT
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+		<link href="https://bootswatch.com/5/darkly/bootstrap.css" rel="stylesheet">
+		<link href="/static/main.css" rel="stylesheet">
+	</head>
+
+	<body class="text-center">
+		<h1 class="h3 mb-3 font-weight-normal">Please Enter PCAP to be analyzed</h1>
+		<form action="/upload" method="POST" enctype="multipart/form-data">
+			
+			<label for="formFile" class="form-label">PCAP To Be Analzyed</label>
+			<input name="file" class="btn custom-form-cap form-control" type="file" id="formFile">
+			<input name="submit" type="submit" value="Submit">
+			<!--<button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>-->
+		</form>
+		
+	</body>
+	<footer>
+		<p style="bottom: 0%; position: fixed; width: 100%;" class="mt-5 mb-3 text-muted">&copy; 2021</p>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</html>
+15:12:49.960263 IP 192.168.196.1.54399 > 192.168.196.16.http: Flags [.], ack 1397, win 4100, length 0
+E..(..@....W...........P.....EJ.P.............
+15:12:49.960350 IP 192.168.196.1.54399 > 192.168.196.16.http: Flags [F.], seq 399, ack 1397, win 4100, length 0
+E..(..@....V...........P.....EJ.P.............
+15:12:49.960364 IP 192.168.196.16.http > 192.168.196.1.54399: Flags [.], ack 400, win 501, length 0
+E..(..@.@.1m.........P...EJ.....P...&...
+15:12:50.000377 IP 192.168.196.1.54400 > 192.168.196.16.http: Flags [S], seq 2604434004, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+E..4..@....I...........P.<.T........xZ..............
+15:12:50.000415 IP 192.168.196.16.http > 192.168.196.1.54400: Flags [S.], seq 4244414476, ack 2604434005, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+E..4..@.@.1a.........P.......<.U....	...............
+15:12:50.000613 IP 192.168.196.1.54400 > 192.168.196.16.http: Flags [.], ack 1, win 4106, length 0
+E..(..@....T...........P.<.U....P..
+..........
+15:12:50.000671 IP 192.168.196.1.54400 > 192.168.196.16.http: Flags [P.], seq 1:361, ack 1, win 4106, length 360: HTTP: GET /static/main.css HTTP/1.1
+E.....@................P.<.U....P..
+f)..GET /static/main.css HTTP/1.1
+Host: 192.168.196.16
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://192.168.196.16/
+DNT: 1
+Sec-GPC: 1
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+15:12:50.000677 IP 192.168.196.16.http > 192.168.196.1.54400: Flags [.], ack 361, win 501, length 0
+E..(..@.@............P.......<..P...	~..
+15:12:50.002467 IP 192.168.196.16.http > 192.168.196.1.54400: Flags [P.], seq 1:18, ack 361, win 501, length 17: HTTP: HTTP/1.0 200 OK
+E..9..@.@..s.........P.......<..P...	...HTTP/1.0 200 OK
+
+15:12:50.002607 IP 192.168.196.16.http > 192.168.196.1.54400: Flags [FP.], seq 18:1009, ack 361, win 501, length 991: HTTP
+E.....@.@............P.......<..P....]..Content-Disposition: inline; filename=main.css
+Content-Type: text/css; charset=utf-8
+Content-Length: 736
+Last-Modified: Fri, 14 May 2021 11:33:53 GMT
+Cache-Control: no-cache
+Date: Fri, 14 May 2021 13:12:50 GMT
+Server: Werkzeug/2.0.0 Python/3.8.5
+
+.custom-form-cap {
+    color: #fff !important;
+    background-color: #222 !important;
+}
+
+table.center {
+  margin-left: auto !important; 
+  margin-right: auto !important;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+15:12:50.002901 IP 192.168.196.1.54400 > 192.168.196.16.http: Flags [.], ack 1010, win 4102, length 0
+E..(..@....R...........P.<......P.............
+15:12:50.003064 IP 192.168.196.1.54400 > 192.168.196.16.http: Flags [F.], seq 361, ack 1010, win 4102, length 0
+E..(..@....Q...........P.<......P.............
+15:12:50.003079 IP 192.168.196.16.http > 192.168.196.1.54400: Flags [.], ack 362, win 501, length 0
+E..(..@.@.1m.........P.......<..P.......
+15:12:50.406059 IP 192.168.196.1.54410 > 192.168.196.16.http: Flags [S], seq 2049716514, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+E..4..@....D...........Pz,1"........................
+15:12:50.406094 IP 192.168.196.16.http > 192.168.196.1.54410: Flags [S.], seq 2608738359, ack 2049716515, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+E..4..@.@.1a.........P...~07z,1#....	...............
+15:12:50.406277 IP 192.168.196.1.54410 > 192.168.196.16.http: Flags [.], ack 1, win 4106, length 0
+E..(..@....O...........Pz,1#.~08P..
+J.........
+15:12:50.406347 IP 192.168.196.1.54410 > 192.168.196.16.http: Flags [P.], seq 1:353, ack 1, win 4106, length 352: HTTP: GET /favicon.ico HTTP/1.1
+E.....@................Pz,1#.~08P..
+Kw..GET /favicon.ico HTTP/1.1
+Host: 192.168.196.16
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0
+Accept: image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://192.168.196.16/
+DNT: 1
+Sec-GPC: 1
+Pragma: no-cache
+Cache-Control: no-cache
+
+
+15:12:50.406355 IP 192.168.196.16.http > 192.168.196.1.54410: Flags [.], ack 353, win 501, length 0
+E..(Q.@.@..q.........P...~08z,2.P...	~..
+15:12:50.407862 IP 192.168.196.16.http > 192.168.196.1.54410: Flags [P.], seq 1:25, ack 353, win 501, length 24: HTTP: HTTP/1.0 404 NOT FOUND
+E..@Q.@.@..X.........P...~08z,2.P...	...HTTP/1.0 404 NOT FOUND
+
+15:12:50.408011 IP 192.168.196.16.http > 192.168.196.1.54410: Flags [FP.], seq 25:394, ack 353, win 501, length 369: HTTP
+E...Q.@.@............P...~0Pz,2.P...
+...Content-Type: text/html; charset=utf-8
+Content-Length: 232
+Server: Werkzeug/2.0.0 Python/3.8.5
+Date: Fri, 14 May 2021 13:12:50 GMT
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+
+15:12:50.408145 IP 192.168.196.1.54410 > 192.168.196.16.http: Flags [.], ack 395, win 4104, length 0
+E..(..@....M...........Pz,2..~1.P...G.........
+15:12:50.408318 IP 192.168.196.1.54410 > 192.168.196.16.http: Flags [F.], seq 353, ack 395, win 4104, length 0
+E..(. @....L...........Pz,2..~1.P...G.........
+15:12:50.408331 IP 192.168.196.16.http > 192.168.196.1.54410: Flags [.], ack 354, win 501, length 0
+E..(..@.@.1m.........P...~1.z,2.P...U...
+15:12:52.582712 IP 192.168.196.1.54411 > 192.168.196.16.ftp: Flags [S], seq 1619097681, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+E..4.!@....?............`.xQ.........H..............
+15:12:52.582766 IP 192.168.196.16.ftp > 192.168.196.1.54411: Flags [S.], seq 455236821, ack 1619097682, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+E..4..@.@.1a............."\.`.xR....	...............
+15:12:52.583076 IP 192.168.196.1.54411 > 192.168.196.16.ftp: Flags [.], ack 1, win 4106, length 0
+E..(."@....J............`.xR."\.P..
+p.........
+15:12:52.585037 IP 192.168.196.16.ftp > 192.168.196.1.54411: Flags [P.], seq 1:21, ack 1, win 502, length 20: FTP: 220 (vsFTPd 3.0.3)
+E..<st@.@................"\.`.xRP...	...220 (vsFTPd 3.0.3)
+
+15:12:52.625835 IP 192.168.196.1.54411 > 192.168.196.16.ftp: Flags [.], ack 21, win 4106, length 0
+E..(.#@....I............`.xR."\.P..
+p.........
+15:12:54.084642 IP 192.168.196.1.54411 > 192.168.196.16.ftp: Flags [P.], seq 1:14, ack 21, win 4106, length 13: FTP: USER nathan
+E..5.$@....;............`.xR."\.P..
+s...USER nathan
+
+15:12:54.084668 IP 192.168.196.16.ftp > 192.168.196.1.54411: Flags [.], ack 14, win 502, length 0
+E..(su@.@................"\.`.x_P...	~..
+15:12:54.084772 IP 192.168.196.16.ftp > 192.168.196.1.54411: Flags [P.], seq 21:55, ack 14, win 502, length 34: FTP: 331 Please specify the password.
+E..Jsv@.@................"\.`.x_P...	...331 Please specify the password.
+
+15:12:54.125843 IP 192.168.196.1.54411 > 192.168.196.16.ftp: Flags [.], ack 55, win 4106, length 0
+E..(.%@....G............`.x_."].P..
+p.........
+15:12:55.383140 IP 192.168.196.1.54411 > 192.168.196.16.ftp: Flags [P.], seq 14:36, ack 55, win 4106, length 22: FTP: PASS Buck3tH4TF0RM3!
+E..>.&@....0............`.x_."].P..
+J...PASS Buck3tH4TF0RM3!
+
+15:12:55.383176 IP 192.168.196.16.ftp > 192.168.196.1.54411: Flags [.], ack 36, win 502, length 0
+E..(sw@.@................"].`.xuP...	~..
+15:12:55.390529 IP 192.168.196.16.ftp > 192.168.196.1.54411: Flags [P.], seq 55:78, ack 36, win 502, length 23: FTP: 230 Login successful.
+E..?sx@.@................"].`.xuP...	...230 Login successful.
+
+15:12:55.390943 IP 192.168.196.1.54411 > 192.168.196.16.ftp: Flags [P.], seq 36:42, ack 78, win 4105, length 6: FTP: SYST
+E....'@....?............`.xu."]#P..	....SYST
+
+15:12:55.390976 IP 192.168.196.16.ftp > 192.168.196.1.54411: Flags [.], ack 42, win 502, length 0
+E..(sy@.@................"]#`.x{P...	~..
+15:12:55.391079 IP 192.168.196.16.ftp > 192.168.196.1.54411: Flags [P.], seq 78:97, ack 42, win 502, length 19: FTP: 215 UNIX Type: L8
+E..;sz@.@................"]#`.x{P...	...215 UNIX Type: L8
+
+15:12:55.436932 IP 192.168.196.1.54411 > 192.168.196.16.ftp: Flags [.], ack 97, win 4105, length 0
+E..(.(@....D............`.x{."]6P..	pr........
+15:12:56.267770 IP 192.168.196.1.54411 > 192.168.196.16.ftp: Flags [P.], seq 42:70, ack 97, win 4105, length 28: FTP: PORT 192,168,196,1,212,140
+E..D.)@....'............`.x{."]6P..	.u..PORT 192,168,196,1,212,140
+
+15:12:56.267797 IP 192.168.196.16.ftp > 192.168.196.1.54411: Flags [.], ack 70, win 502, length 0
+E..(s{@.@................"]6`.x.P...	~..
+15:12:56.268016 IP 192.168.196.16.ftp > 192.168.196.1.54411: Flags [P.], seq 97:148, ack 70, win 502, length 51: FTP: 200 PORT command successful. Consider using PASV.
+E..[s|@.@................"]6`.x.P...	...200 PORT command successful. Consider using PASV.
+
+15:12:56.268656 IP 192.168.196.1.54411 > 192.168.196.16.ftp: Flags [P.], seq 70:76, ack 148, win 4105, length 6: FTP: LIST
+E....*@....<............`.x.."]iP..	.m..LIST
+
+15:12:56.269195 IP 192.168.196.16.ftp > 192.168.196.1.54411: Flags [P.], seq 148:187, ack 76, win 502, length 39: FTP: 150 Here comes the directory listing.
+E..Os}@.@................"]i`.x.P...	...150 Here comes the directory listing.
+
+15:12:56.269621 IP 192.168.196.16.ftp > 192.168.196.1.54411: Flags [P.], seq 187:211, ack 76, win 502, length 24: FTP: 226 Directory send OK.
+E..@s~@.@................"].`.x.P...	...226 Directory send OK.
+
+15:12:56.269782 IP 192.168.196.1.54411 > 192.168.196.16.ftp: Flags [.], ack 211, win 4105, length 0
+E..(..@....>............`.x.."].P..	o.........
+15:12:57.338913 IP 192.168.196.1.54411 > 192.168.196.16.ftp: Flags [P.], seq 76:104, ack 211, win 4105, length 28: FTP: PORT 192,168,196,1,212,141
+E..D./@....!............`.x.."].P..	....PORT 192,168,196,1,212,141
+
+15:12:57.339140 IP 192.168.196.16.ftp > 192.168.196.1.54411: Flags [P.], seq 211:262, ack 104, win 502, length 51: FTP: 200 PORT command successful. Consider using PASV.
+E..[s.@.@................"].`.x.P...	...200 PORT command successful. Consider using PASV.
+
+15:12:57.339696 IP 192.168.196.1.54411 > 192.168.196.16.ftp: Flags [P.], seq 104:114, ack 262, win 4105, length 10: FTP: LIST -al
+E..2.0@....2............`.x.."].P..	A<..LIST -al
+
+15:12:57.340307 IP 192.168.196.16.ftp > 192.168.196.1.54411: Flags [P.], seq 262:301, ack 114, win 502, length 39: FTP: 150 Here comes the directory listing.
+E..Os.@.@................"].`.x.P...	...150 Here comes the directory listing.
+
+15:12:57.340646 IP 192.168.196.16.ftp > 192.168.196.1.54411: Flags [P.], seq 301:325, ack 114, win 502, length 24: FTP: 226 Directory send OK.
+E..@s.@.@................"^.`.x.P...	...226 Directory send OK.
+
+15:12:57.340779 IP 192.168.196.1.54411 > 192.168.196.16.ftp: Flags [.], ack 325, win 4104, length 0
+E..(.3@....9............`.x.."^.P...oG........
+15:13:17.989210 IP 192.168.196.1.54411 > 192.168.196.16.ftp: Flags [P.], seq 114:122, ack 325, win 4104, length 8: FTP: TYPE I
+E..0.5@..../............`.x.."^.P....E..TYPE I
+
+15:13:17.989363 IP 192.168.196.16.ftp > 192.168.196.1.54411: Flags [P.], seq 325:356, ack 122, win 502, length 31: FTP: 200 Switching to Binary mode.
+E..Gs.@.@................"^.`.x.P...	...200 Switching to Binary mode.
+
+15:13:17.989689 IP 192.168.196.1.54411 > 192.168.196.16.ftp: Flags [P.], seq 122:150, ack 356, win 4104, length 28: FTP: PORT 192,168,196,1,212,143
+E..D.6@.................`.x.."^9P.... ..PORT 192,168,196,1,212,143
+
+15:13:17.989830 IP 192.168.196.16.ftp > 192.168.196.1.54411: Flags [P.], seq 356:407, ack 150, win 502, length 51: FTP: 200 PORT command successful. Consider using PASV.
+E..[s.@.@................"^9`.x.P...	...200 PORT command successful. Consider using PASV.
+
+15:13:17.990074 IP 192.168.196.1.54411 > 192.168.196.16.ftp: Flags [P.], seq 150:166, ack 407, win 4104, length 16: FTP: RETR notes.txt
+E..8.7@....%............`.x.."^lP.......RETR notes.txt
+
+15:13:17.990214 IP 192.168.196.16.ftp > 192.168.196.1.54411: Flags [P.], seq 407:433, ack 166, win 502, length 26: FTP: 550 Failed to open file.
+E..Bs.@.@................"^l`.x.P...	...550 Failed to open file.
+
+15:13:18.033053 IP 192.168.196.1.54411 > 192.168.196.16.ftp: Flags [.], ack 433, win 4104, length 0
+E..(.8@....4............`.x.."^.P...n.........
+15:13:21.085693 IP 192.168.196.1.54411 > 192.168.196.16.ftp: Flags [P.], seq 166:172, ack 433, win 4104, length 6: FTP: QUIT
+E....9@....-............`.x.."^.P.......QUIT
+
+15:13:21.085794 IP 192.168.196.16.ftp > 192.168.196.1.54411: Flags [P.], seq 433:447, ack 172, win 502, length 14: FTP: 221 Goodbye.
+E..6s.@.@................"^.`.x.P...	...221 Goodbye.
+
+15:13:21.085838 IP 192.168.196.16.ftp > 192.168.196.1.54411: Flags [F.], seq 447, ack 172, win 502, length 0
+E..(s.@.@................"^.`.x.P...	~..
+15:13:21.086194 IP 192.168.196.1.54411 > 192.168.196.16.ftp: Flags [.], ack 448, win 4104, length 0
+E..(.:@....2............`.x.."^.P...n.........
+15:13:21.086523 IP 192.168.196.1.54411 > 192.168.196.16.ftp: Flags [F.], seq 172, ack 448, win 4104, length 0
+E..(.;@....1............`.x.."^.P...n.........
+15:13:21.086530 IP 192.168.196.16.ftp > 192.168.196.1.54411: Flags [.], ack 173, win 502, length 0
+E..(s.@.@................"^.`.x.P...	~..
